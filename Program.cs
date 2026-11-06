@@ -76,21 +76,43 @@
 //     System.Console.WriteLine(score);
 // }
 
-List<string> searchableTasks = new List<string> { "Код", "Тест", "Код" };
+// List<string> searchableTasks = new List<string> { "Код", "Тест", "Код" };
 
-Console.WriteLine(searchableTasks.Contains("Код"));
-Console.WriteLine(searchableTasks.Contains("План"));
-Console.WriteLine(searchableTasks.IndexOf("Код"));
-Console.WriteLine(searchableTasks.IndexOf("План"));
+// Console.WriteLine(searchableTasks.Contains("Код"));
+// Console.WriteLine(searchableTasks.Contains("План"));
+// Console.WriteLine(searchableTasks.IndexOf("Код"));
+// Console.WriteLine(searchableTasks.IndexOf("План"));
 
 
-int index = searchableTasks.IndexOf("Код");
+// int index = searchableTasks.IndexOf("Код");
 
-if (index >= 0)
-{
-    Console.WriteLine($"Первый индекс: {index}");
-}
-else
-{
-    Console.WriteLine("Задача не найдена");
-}
+// if (index >= 0)
+// {
+//     Console.WriteLine($"Первый индекс: {index}");
+// }
+// else
+// {
+//     Console.WriteLine("Задача не найдена");
+// }
+
+// List<string> clearedTasks = new List<string> { "Код", "Тест" };
+
+// void PrintTasks(List<string> tasks)
+// {
+//     if (tasks.Count == 0)
+//     {
+//         Console.WriteLine("Список пуст");
+//         return;
+//     }
+
+//     for (int i = 0; i < tasks.Count; i++)
+//     {
+//         Console.WriteLine($"{i}: {tasks[i]}");
+//     }
+// }
+
+// clearedTasks.Clear();
+// Console.WriteLine(clearedTasks.Count);
+// PrintTasks(clearedTasks);
+
+
