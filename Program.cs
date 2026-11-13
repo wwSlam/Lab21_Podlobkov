@@ -3,16 +3,18 @@
 // tasks.Insert(1, "План");
 
 
-// bool InsertTaskSafe(List<string> tasks, int index, string title)
-// {
-//     if (index < 0 || index > tasks.Count)
-//     {
-//         return false;
-//     }
+using System.Runtime.InteropServices;
 
-//     tasks.Insert(index, title);
-//     return true;
-// }
+bool InsertTaskSafe(List<string> tasks, int index, string title)
+{
+    if (index < 0 || index > tasks.Count)
+    {
+        return false;
+    }
+
+    tasks.Insert(index, title);
+    return true;
+}
 
 // List<string> emptyTasks = new List<string>();
 // emptyTasks.Add("Код");
@@ -27,19 +29,21 @@
 // Console.WriteLine(editableTasks.Count);
 
 
-// void PrintTasks(List<string> tasks)
-// {
-//     if (tasks.Count == 0)
-//     {
-//         Console.WriteLine("Список пуст");
-//         return;
-//     }
+// using System.Runtime.InteropServices;
 
-//     for (int i = 0; i < tasks.Count; i++)
-//     {
-//         Console.WriteLine($"{i}: {tasks[i]}");
-//     }
-// }
+void PrintTasks(List<string> tasks)
+{
+    if (tasks.Count == 0)
+    {
+        Console.WriteLine("Список пуст");
+        return;
+    }
+
+    for (int i = 0; i < tasks.Count; i++)
+    {
+        Console.WriteLine($"{i}: {tasks[i]}");
+    }
+}
 
 // PrintTasks(tasks);
 
@@ -97,6 +101,7 @@
 
 // List<string> clearedTasks = new List<string> { "Код", "Тест" };
 
+
 // void PrintTasks(List<string> tasks)
 // {
 //     if (tasks.Count == 0)
@@ -111,8 +116,49 @@
 //     }
 // }
 
+
 // clearedTasks.Clear();
 // Console.WriteLine(clearedTasks.Count);
 // PrintTasks(clearedTasks);
 
 
+Console.Write("Сколько задач добавить сначала: ");
+int count = Convert.ToInt32(Console.ReadLine());
+
+List<string> tasks = new List<string>();
+
+for (int i = 0; i < count; i++)
+{
+    Console.Write($"Задача {i + 1}: ");
+    string title = Console.ReadLine() ?? "";
+    tasks.Add(title);
+}
+
+PrintTasks(tasks);
+
+
+Console.Write("назовите номер задачи: ");
+string TasksNew = Console.ReadLine() ?? "";
+tasks.Add(TasksNew);
+System.Console.WriteLine("Задача добавлена ");
+
+
+
+string zadacha = Console.ReadLine() ?? ""; 
+int index = int.Parse(Console.ReadLine() ?? "0");
+
+if (InsertTaskSafe(tasks, index, zadacha))
+{
+    Console.WriteLine("Задача вставлена");
+}
+else
+{
+    Console.WriteLine("Недопустимый индекс вставки");
+}
+
+System.Console.Write("назовиТе задачу для удаления: ");
+int index2 = int.Parse(Console.ReadLine() ?? "");
+
+
+    
+  
