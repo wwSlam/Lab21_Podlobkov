@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Student_07\\Documents\\Lab21_Podlobkov\\Lab21_Podlobkov.csproj": {}
+    "C:\\Users\\Student_13\\Documents\\lab21_Podlobkov\\Lab21_Podlobkov.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Student_07\\Documents\\Lab21_Podlobkov\\Lab21_Podlobkov.csproj": {
+    "C:\\Users\\Student_13\\Documents\\lab21_Podlobkov\\Lab21_Podlobkov.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student_07\\Documents\\Lab21_Podlobkov\\Lab21_Podlobkov.csproj",
+        "projectUniqueName": "C:\\Users\\Student_13\\Documents\\lab21_Podlobkov\\Lab21_Podlobkov.csproj",
         "projectName": "Lab21_Podlobkov",
-        "projectPath": "C:\\Users\\Student_07\\Documents\\Lab21_Podlobkov\\Lab21_Podlobkov.csproj",
-        "packagesPath": "C:\\Users\\Student_07\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student_07\\Documents\\Lab21_Podlobkov\\obj\\",
+        "projectPath": "C:\\Users\\Student_13\\Documents\\lab21_Podlobkov\\Lab21_Podlobkov.csproj",
+        "packagesPath": "C:\\Users\\Student_13\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Student_13\\Documents\\lab21_Podlobkov\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Student_07\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Student_13\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
